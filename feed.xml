@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Kinslow Regulatory Evidence Archive</title>
+  <link href="https://chasekn43.github.io/regulatory-archive-2026/" rel="alternate"/>
+  <link href="https://chasekn43.github.io/feed.xml" rel="self"/>
+  <updated>2026-08-08T00:00:00Z</updated>
+  <author>
+    <name>Charles W. Kinslow IV</name>
+  </author>
+  <id>https://chasekn43.github.io/regulatory-archive-2026/</id>
+
+  <entry>
+    <title>Kinslow v. Affirm Regulatory Evidence Archive</title>
+    <link href="https://chasekn43.github.io/regulatory-archive-2026/" rel="alternate"/>
+    <id>https://chasekn43.github.io/regulatory-archive-2026/</id>
+    <updated>2026-08-08T00:00:00Z</updated>
+    <summary>Public regulatory evidence archive documenting Chase Kinslow's Affirm dispute, CFPB complaint, and enforcement correspondence.</summary>
+  </entry>
+
+  <entry>
+    <title>Monroe Police Report 26-29572</title>
+    <link href="https://chasekn43.github.io/regulatory-archive-2026/documents/Monroe_Police_Report_26-29572.pdf" rel="alternate"/>
+    <id>https://chasekn43.github.io/regulatory-archive-2026/documents/Monroe_Police_Report_26-29572.pdf</id>
+    <updated>2026-08-08T00:00:00Z</updated>
+    <summary>Official Monroe Police Department identity theft report for Order PE270138.</summary>
+  </entry>
+
+  <entry>
+    <title>CFPB Complaint and Affirm False Response</title>
+    <link href="https://chasekn43.github.io/regulatory-archive-2026/documents/CFPB_Complaint_and_Affirm_False_Response.pdf" rel="alternate"/>
+    <id>https://chasekn43.github.io/regulatory-archive-2026/documents/CFPB_Complaint_and_Affirm_False_Response.pdf</id>
+    <updated>2026-08-08T00:00:00Z</updated>
+    <summary>CFPB complaint filing and documentation of Affirm's false response to regulators.</summary>
+  </entry>
+
+  <entry>
+    <title>Morgan Lewis Correspondence</title>
+    <link href="https://chasekn43.github.io/regulatory-archive-2026/documents/Morgan_Lewis_Correspondence.pdf" rel="alternate"/>
+    <id>https://chasekn43.github.io/regulatory-archive-2026/documents/Morgan_Lewis_Correspondence.pdf</id>
+    <updated>2026-08-08T00:00:00Z</updated>
+    <summary>Correspondence from Morgan Lewis and Bockius LLP representing Affirm Inc.</summary>
+  </entry>
+
+  <entry>
+    <title>California AG Dispute Notice</title>
+    <link href="https://chasekn43.github.io/regulatory-archive-2026/documents/California_AG_Dispute_Notice.pdf" rel="alternate"/>
+    <id>https://chasekn43.github.io/regulatory-archive-2026/documents/California_AG_Dispute_Notice.pdf</id>
+    <updated>2026-08-08T00:00:00Z</updated>
+    <summary>Formal statutory notice submitted to California Attorney General.</summary>
+  </entry>
+
+  <entry>
+    <title>Louisiana AG Dispute Submission</title>
+    <link href="https://chasekn43.github.io/regulatory-archive-2026/documents/Louisiana_AG_Dispute_Submission.pdf" rel="alternate"/>
+    <id>https://chasekn43.github.io/regulatory-archive-2026/documents/Louisiana_AG_Dispute_Submission.pdf</id>
+    <updated>2026-08-08T00:00:00Z</updated>
+    <summary>Formal dispute submission to Louisiana Attorney General.</summary>
+  </entry>
+</feed>
