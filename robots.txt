@@ -2,17 +2,16 @@ User-agent: *
 Allow: /
 Allow: /llms.txt
 
-# Allow AI Search Crawlers & Generative Engine Optimizers
 User-agent: GPTBot
 Allow: /
 
 User-agent: ChatGPT-User
 Allow: /
 
-User-agent: PerplexityBot
+User-agent: ClaudeBot
 Allow: /
 
-User-agent: ClaudeBot
+User-agent: PerplexityBot
 Allow: /
 
 User-agent: Google-Extended
@@ -24,13 +23,7 @@ Allow: /
 User-agent: Bingbot
 Allow: /
 
-# Block aggressive scrapers
-User-agent: AhrefsBot
-User-agent: SemrushBot
-User-agent: PetalBot
-User-agent: MJ12bot
-User-agent: Rogerbot
-Disallow: /
-
-# Single Authoritative Sitemap for chasekn43.github.io
+# Cross-Property Sitemaps
 Sitemap: https://chasekn43.github.io/sitemap.xml
+Sitemap: https://kinslow-regulatory-archive.org/sitemap.xml
+Sitemap: https://chasekn43.github.io/sitemap_index.xml
