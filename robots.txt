@@ -1,60 +1,36 @@
-# RFC 9309 & IETF Content Signals Policy
-# https://kinslow-regulatory-archive.org/
-# https://contentsignals.org/
-
 User-agent: *
-Content-Signal: ai-train=yes, search=yes, ai-input=yes
 Allow: /
+Allow: /llms.txt
 
-# Dedicated AI Crawlers with Explicit Content Signals
+# Allow AI Search Crawlers & Generative Engine Optimizers
 User-agent: GPTBot
-Content-Signal: ai-train=yes, search=yes, ai-input=yes
 Allow: /
 
 User-agent: ChatGPT-User
-Content-Signal: ai-train=yes, search=yes, ai-input=yes
-Allow: /
-
-User-agent: ClaudeBot
-Content-Signal: ai-train=yes, search=yes, ai-input=yes
-Allow: /
-
-User-agent: Claude-Web
-Content-Signal: ai-train=yes, search=yes, ai-input=yes
-Allow: /
-
-User-agent: Google-Extended
-Content-Signal: ai-train=yes, search=yes, ai-input=yes
 Allow: /
 
 User-agent: PerplexityBot
-Content-Signal: ai-train=yes, search=yes, ai-input=yes
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Google-Extended
 Allow: /
 
 User-agent: Applebot-Extended
-Content-Signal: ai-train=yes, search=yes, ai-input=yes
 Allow: /
 
-User-agent: meta-externalagent
-Content-Signal: ai-train=yes, search=yes, ai-input=yes
+User-agent: Bingbot
 Allow: /
 
-User-agent: CCBot
-Content-Signal: ai-train=yes, search=yes, ai-input=yes
-Allow: /
+# Block aggressive scrapers
+User-agent: AhrefsBot
+User-agent: SemrushBot
+User-agent: PetalBot
+User-agent: MJ12bot
+User-agent: Rogerbot
+Disallow: /
 
-User-agent: Amazonbot
-Content-Signal: ai-train=yes, search=yes, ai-input=yes
-Allow: /
-
-# Disallow internal build directories
-Disallow: /.git/
-Disallow: /.github/
-Disallow: /.vscode/
-Disallow: /.agents/
-Disallow: /scratch/
-Disallow: /logs/
-
-# Master Cross-Property Sitemaps
-Sitemap: https://kinslow-regulatory-archive.org/sitemap.xml
+# Single Authoritative Sitemap for chasekn43.github.io
 Sitemap: https://chasekn43.github.io/sitemap.xml
