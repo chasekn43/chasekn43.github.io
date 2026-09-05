@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <sitemap>
-    <loc>https://kinslow-regulatory-archive.org/sitemap.xml</loc>
+    <loc>https://chasekn43.github.io/sitemap.xml</loc>
     <lastmod>2026-09-04</lastmod>
   </sitemap>
   <sitemap>
-    <loc>https://chasekn43.github.io/sitemap.xml</loc>
+    <loc>https://chasekn43.github.io/regulatory-archive-2026/sitemap.xml</loc>
+    <lastmod>2026-09-04</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://chasekn43.github.io/regulatory-archive-worker/sitemap.xml</loc>
     <lastmod>2026-09-04</lastmod>
   </sitemap>
 </sitemapindex>
