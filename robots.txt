@@ -23,7 +23,5 @@ Allow: /
 User-agent: Bingbot
 Allow: /
 
-# Cross-Property Sitemaps
 Sitemap: https://chasekn43.github.io/sitemap.xml
-Sitemap: https://kinslow-regulatory-archive.org/sitemap.xml
 Sitemap: https://chasekn43.github.io/sitemap_index.xml
