@@ -1,8 +1,20 @@
-# chasekn43.github.io — Crawler Directives
+# chasekn43.github.io — Crawler Directives & AI Search Permissions
+# Primary Sitemap
+Sitemap: https://chasekn43.github.io/sitemap.xml
 
+# Default Rule for All Crawlers
 User-agent: *
 Allow: /
+Disallow: /.git/
+Disallow: /.github/
+Disallow: /.vscode/
+Disallow: /.agents/
+Disallow: /.antigravity/
+Disallow: /scratch/
+Disallow: /logs/
+Disallow: /__pycache__/
 
+# Explicit Allow for Major Search Engines & AI Answer Engines
 User-agent: Googlebot
 Allow: /
 
@@ -38,16 +50,3 @@ Allow: /
 
 User-agent: Amazonbot
 Allow: /
-
-Disallow: /.git/
-Disallow: /.github/
-Disallow: /.vscode/
-Disallow: /.agents/
-Disallow: /.antigravity/
-Disallow: /scratch/
-Disallow: /logs/
-Disallow: /__pycache__/
-Disallow: /regulatory-archive-2026/
-Disallow: /regulatory-archive-worker/
-
-Sitemap: https://chasekn43.github.io/sitemap.xml
